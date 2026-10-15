@@ -1,4 +1,10 @@
-# WSSNet Release
+# WSSNet: Lightweight Semantic Segmentation Networks for SAR Oil-Spill Mapping
+
+## Introduction
+
+WSSNet is a family of lightweight semantic segmentation networks designed for pixel-wise oil-spill mapping from Synthetic Aperture Radar (SAR) imagery. The framework includes three variants: WSSNet, WSSNet-Mini, and WSSNet-Tiny, which are designed to accommodate different computational requirements.
+
+This repository provides the PyTorch implementations of the three segmentation networks, together with AdaAttReNet, a self-supervised SAR despeckling network, and the associated training, inference, and evaluation scripts.
 
 This repository contains source code for:
 
